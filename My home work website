@@ -29,6 +29,29 @@
    .myslides{
     display: none;
    }
+    .Footer{
+                position: fixed;
+                bottom:10px ;
+                right: 0px;
+                width: 100%;
+                background-color: blueviolet;
+                color: beige;
+                text-align: center;
+            }
+            .copy{
+                color: bisque;
+                background-color: brown;
+                text-align: center;
+            }
+            .phone{
+                color: plum;
+                background-color: black;
+            }
+            .address{
+                color: bisque;
+                background-color: crimson;
+            }
+        </style>
    </style>
    </head>
    <body>
@@ -64,5 +87,10 @@
         setTimeout(carousel, 3000);
     }
     </script>
+    <div class="Footer">
+        <p class="copy">@copywritebycatherine</p>
+        <p class="phone">Phone number :0717592114</p>
+        <p class=address>address:Kifuru-salange;</p>
+    </div>
    </body>
 </html>
